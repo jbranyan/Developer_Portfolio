@@ -1,0 +1,12 @@
+{
+  "name": "developer_portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "Julie Branyan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "pug": "^3.0.2"
+  }
+}
