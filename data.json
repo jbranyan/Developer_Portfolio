@@ -5,40 +5,45 @@
             "project_name": "Quote Generator",
             "description": "Website that generates a random quote for the user",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link":"enter link",
-            "image_urls":["images/random_quotes_1.jpg", "images/random_quotes_2.jpg"]
+            "live_link":"https://jbranyan.github.io/Quote-Generator/",
+            "github_link": "https://github.com/jbranyan/Quote-Generator",
+            "image_urls":["/static/images/random_quotes_1.jpg", "static/images/random_quotes_2.jpg"]
         },
         {
             "id": "1",
             "project_name": "Student Directory",
             "description": "Website that generates a directory of students with a seach feature.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link":"enter link",
-            "image_urls":["images/students_page.jpg", "images/students_page_2.jpg"]
+            "live_link":"https://jbranyan.github.io/Quote-Generator/",
+            "github_link": "https://github.com/jbranyan/Student-Directory",
+            "image_urls":["/static/images/students_page.jpg", "/static/images/students_page_2.jpg"]
         },
         {
             "id": "2",
             "project_name": "JavaScript Event Registration Form",
             "description": "An webform to be used for event registration.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link":"enter link",
-            "image_urls":["images/Interactive_Form.jpg", "images/Interactive_Form_second_screen_shot.jpg"]
+            "live_link":"https://jbranyan.github.io/Interactive-Form/",
+            "github_link": "https://github.com/jbranyan/Interactive-Form",
+            "image_urls":["/static/images/Interactive_Form.jpg", "/static/images/Interactive_Form_second_screen_shot.jpg"]
         },
         {
             "id": "3",
             "project_name": "Gameshow Site",
             "description": "A site where users attempt to guess the phrase.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link":"enter link",
-            "image_urls":["images/phrase_hunter_start_page.jpg","images/phrase_hunter_game.jpg"]
+            "live_link":"https://jbranyan.github.io/Game-Show-App/",
+            "github_link": "https://github.com/jbranyan/Game-Show-App",
+            "image_urls":["/static/images/phrase_hunter_start_page.jpg","/static/images/phrase_hunter_game.jpg"]
         },
         {
             "id": "4",
             "project_name": "Employee Directory",
             "description": "A website that uses an api to generate an employee directory.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link":"enter link",
-            "image_urls":["images/Employee_directory_main_page.png", "images/phrase_hunter_game.jpg"]
+            "live_link":"https://jbranyan.github.io/Employee-Directory/",
+            "github_link": "https://github.com/jbranyan/Employee-Directory",
+            "image_urls":["/static/images/Employee_directory_main_page.png", "/static/images/phrase_hunter_game.jpg"]
         }
     ]
 }

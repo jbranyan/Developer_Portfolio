@@ -10,29 +10,11 @@ block content
     //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p This site display's the coding work for Julie Branyan. She is a developer who has experience in JavaScript, CSS, HTML, Saleforce Apex, and Salesforce lwc.
 
-
+  //- Portofolio project image with links
   article.portfolio-project-thumbs
     .projects-box.box.grid
       each project in projects
         .cell
-          a(href='#')
-            img.thumbnail(src=`/project/${project.id}`, img.thumbnail=`src=${project.image_ulrs[0]}` alt=`${project.project_name} Thumbnail image`, style="width:300px")
+          a(href=`${project.live_link}`)
+            img.thumbnail(src=`${project.image_urls[0]}` alt=`${project.project_name} Thumbnail image`, style="width:300px")
             h5=`${project.project_name}`
-
-
-
-      //- Use the Pug `each` iterator to loop over the projects in your data file 
-
-
-
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
-
-        .cell
-          a(href='#')
-            img.thumbnail(src='https://placehold.it/550x550', alt='')
-            h5 My Site
-
-
