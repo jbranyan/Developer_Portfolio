@@ -29,7 +29,6 @@ app.get('/', (req, res, next) => {
 //render the about route
 app.get('/about', (req, res, next) => {
     console.log( projects );
-    err.status = 500;
     //Render the about Page
     res.render('about');
 });
