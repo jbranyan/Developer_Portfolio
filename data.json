@@ -14,7 +14,7 @@
             "project_name": "Student Directory",
             "description": "Website that generates a directory of students with a seach feature.",
             "technologies": ["JavaScript", "CSS", "HTML"],
-            "live_link":"https://jbranyan.github.io/Quote-Generator/",
+            "live_link":"https://jbranyan.github.io/Student-Directory/",
             "github_link": "https://github.com/jbranyan/Student-Directory",
             "image_urls":["/static/images/students_page.jpg", "/static/images/students_page_2.jpg"]
         },
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link":"https://jbranyan.github.io/Employee-Directory/",
             "github_link": "https://github.com/jbranyan/Employee-Directory",
-            "image_urls":["/static/images/Employee_directory_main_page.png", "/static/images/phrase_hunter_game.jpg"]
+            "image_urls":["/static/images/Employee_directory_main_page.png.jpg", "/static/images/employee_directory_search.jpg","/static/images/employee_directory_modal.jpg"]
         }
     ]
 }
