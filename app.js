@@ -28,30 +28,28 @@ app.get('/', (req, res, next) => {
 
 //render the about route
 app.get('/about', (req, res, next) => {
-    console.log( projects );
     //Render the about Page
     res.render('about');
 });
 
 //render dynamic project routes to match to project or projects
 app.get('/projects/:id', (req, res, next) => {
-    //identify the project information based off the project id 
+    //identify the project information based off the project id
     let projectId = req.params.id;
     let project = projects.find( ({ id }) => id === projectId );
     //Render the Project Page
     res.render('project', { project });
 });
 
-//404 Error handling
+//404 Error handling that renders the custom page-not-found template
 app.use((req, res, next) => {
     const err = new Error();
     err.status = 404;
     err.message = `Page not found.`;
     res.render('page-not-found', { error: err });
-    next(err);
 });
 
-//Global error handling
+//Global error handling that renders the error template
 app.use((err, req, res, next) => {
     err.message = `An unexpected error has occured.`;
     res.status(500);

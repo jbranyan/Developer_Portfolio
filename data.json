@@ -7,7 +7,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link":"https://jbranyan.github.io/Quote-Generator/",
             "github_link": "https://github.com/jbranyan/Quote-Generator",
-            "image_urls":["/static/images/random_quotes_1.jpg", "static/images/random_quotes_2.jpg"]
+            "image_urls":["/static/images/random_quotes_1.jpg", "/static/images/random_quotes_2.jpg"]
         },
         {
             "id": "1",
@@ -43,7 +43,7 @@
             "technologies": ["JavaScript", "CSS", "HTML"],
             "live_link":"https://jbranyan.github.io/Employee-Directory/",
             "github_link": "https://github.com/jbranyan/Employee-Directory",
-            "image_urls":["/static/images/Employee_directory_main_page.png.jpg", "/static/images/employee_directory_search.jpg","/static/images/employee_directory_modal.jpg"]
+            "image_urls":["/static/images/Employee_directory_main_page.png.jpg","/static/images/employee_directory_modal.jpg"]
         }
     ]
 }

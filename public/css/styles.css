@@ -17,12 +17,12 @@ body {
 
 body {
   position: relative;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
   background: #fefefe;
-  background: #000;
+  background: #39799B;
   transform: translateX(0px);
   transition: all 0.4s ease-out;
 }
@@ -36,7 +36,7 @@ h1,h2,h3,h4,h5,p{
 }
 
 h5{
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
   letter-spacing: 2.5px;
   -webkit-text-transform: uppercase;
   text-transform: uppercase;
@@ -114,12 +114,12 @@ nav {
 nav a {
   width: 100%;
   vertical-align: middle;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555; 
+  color: #39799B; 
 }
 
 nav a span {
@@ -137,7 +137,7 @@ nav a span {
   height: 100%;
   min-height: 100%;
   padding: 20px;
-  background: #000;
+  background: #39799B;
 }
 
 .sidebar-info-box {
@@ -159,7 +159,7 @@ nav a span {
 }
 
 .sidebar h5 {
-  color: #fefefe;
+  color: #E4F3FB;
   margin: 0 auto 0.5rem;
 }
 
@@ -167,16 +167,16 @@ nav a span {
   text-rendering: optimizeLegibility;
   line-height: 1.6;
   font-size: 14px;
-  color: #999
+  color: #B3D9ED
 }
 
 .sidebar a {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 600;
   font-size: 13px;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: #555;
+  color: #0a0a0a;
 }
 
 .header {
@@ -184,7 +184,7 @@ nav a span {
   color: #fefefe;
   height: 40px;
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #39799B;
   border-left: 1px solid #0a0a0a;
 }
 
@@ -201,7 +201,7 @@ nav a span {
   width: 20px;
   height: 16px;
   border: none;
-  background: #0a0a0a;
+  background: #39799B;
   margin-top: 3px;
   margin-right: 10px;
   border-top: 2px solid #fefefe;
@@ -242,11 +242,11 @@ nav a span {
 }
 
 .projects-box h5 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Merriweather', serif;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 2.25px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #222;;
   margin: 0 auto 8px;
 }
@@ -259,7 +259,7 @@ nav a span {
   width: 100%;
   min-width: 100px;
   border: 4px solid #fff;
-  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 
@@ -296,7 +296,7 @@ nav a span {
   max-width: 255px;
   margin: auto 0 5px 0;
   padding: 0.85em 1em;
-  background-color: #333;
+  background-color: #39799B;
   border: 1px solid transparent;
 }
 
