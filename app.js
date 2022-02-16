@@ -41,20 +41,28 @@ app.get('/projects/:id', (req, res, next) => {
     res.render('project', { project });
 });
 
+/*
+* Error Handlers
+*/
+
 //404 Error handling that renders the custom page-not-found template
 app.use((req, res, next) => {
+    console.log(res.status);
+    if(res.status === 'undefined'){
+        err.status = 404;
+    }
     const err = new Error();
     err.status = 404;
-    err.message = `Page not found.`;
-    res.render('page-not-found', { error: err });
+    res.status(404).render('page-not-found', { error: err.status });
+    console.log('Received 404 error', err);
 });
 
 //Global error handling that renders the error template
 app.use((err, req, res, next) => {
-    err.message = `An unexpected error has occured.`;
-    res.status(500);
-    res.render('error', { error: err });
-  });
+    err.status = 500;
+    res.status(500).render('error', { err });
+    console.log('Received error', err);
+});
 
 //start the server and log an error message the app is
 //listening to port 3000
